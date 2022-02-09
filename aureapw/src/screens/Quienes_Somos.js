@@ -5,7 +5,7 @@ const Quienes_Somos = () => {
   
     return (
         <div>
-        {/* <h1>Viablidad</h1>
+         <h1>Viablidad</h1>
         <h2>VIABILIDAD ECONÓMICA</h2>
         <p>La viabilidad económica del proyecto es su fuerte, ya que la aplicación con su desarrollo completado se podría adaptar a otras fábricas y ayudar a las industrias a llegar a la cuarta revolución industrial. La cuarta revolución industrial se basa en una evolución de las fábricas para adaptarse al big data y la interconexión a gran escala de sistemas y dispositivos.
 Dentro de poco una fábrica sin esos avances tecnológicos estará obsoleta. Al tener que estar conectadas la aplicación es una forma sencilla en la que recibir e interpretar los datos de la fábrica.</p>
@@ -17,7 +17,7 @@ Dentro de poco una fábrica sin esos avances tecnológicos estará obsoleta. Al 
 React Native: esta herramienta la hemos utilizado, para crear la aplicación, que será la base de nuestro proyecto integrado.
 Mosquito Broker MQTT: esta herramienta la hemos utilizado para conectar las variables que nosotros recibimos a través de los sensores y mostrarlo en tiempo real en nuestra aplicación.
 Java: esta herramienta la hemos utilizado para crear una API de prueba y comprobar si la aplicación funciona correctamente.
-Todas las herramientas que hemos utilizado las hemos testeado nosotros mismos, para saber si todo funciona correctamente.</p> */}
+Todas las herramientas que hemos utilizado las hemos testeado nosotros mismos, para saber si todo funciona correctamente.</p> 
         </div>
     )
 };
