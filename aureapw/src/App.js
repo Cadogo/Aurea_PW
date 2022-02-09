@@ -1,6 +1,6 @@
 import React from 'react';
+import Navegacion from './components/Navegacion';
 import "./index.css";
-import Navegacion from './/components/Navegacion';
 
 const App = () => {
 

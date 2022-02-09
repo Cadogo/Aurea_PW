@@ -6,8 +6,11 @@ const Navbar = () => {
 
     return (
         <>
-        <nav>
+        <nav id='cabecera'>
           <ul>
+            <li>
+              <h1>Florida Aurea</h1>
+            </li>
             <li>
               <Link to="/">Home</Link>
             </li>

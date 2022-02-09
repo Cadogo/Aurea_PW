@@ -11,12 +11,10 @@ const Navegacion = () => {
 
     return (
       <html>
-        <Home />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Navbar />}>
-              {/* <Route index element={<Home />} />
-              <Route path="Home" element={<Home />} /> */}
+              <Route index element={<Home />} />
               <Route path="Quienes_Somos" element={<Quienes_Somos />} />
               <Route path="Descargar_App" element={<Descargar_App />} />
               <Route path="*" element={<NoPage />} />
