@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #C280FF;
+  background-color: #f3e6ff;
 }
 
 code {
@@ -102,10 +102,10 @@ input[type="radio"]:hover + label {
   margin-top: 2.5%;
   margin-left: 20%;
   margin-right: 20%;
-  border-style: solid;
-  border-width: 3px;
+  /* border-style: solid; */
+  /* border-width: 3px; */
   border-radius: 20px;
-  border-color: black;
+  /* border-color: black; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,10 +119,10 @@ input[type="radio"]:hover + label {
   margin-left: 10%;
   margin-right: 10%;
   padding: 2.5%;
-  border-style: solid;
-  border-width: 3px;
+  /* border-style: solid; */
+  /* border-width: 3px; */
   border-radius: 20px;
-  border-color: black;
+  /* border-color: black; */
 }
 
 #contenedorTitulo{
