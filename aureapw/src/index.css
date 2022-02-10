@@ -129,7 +129,7 @@ input[type="radio"]:hover + label {
   height: 100%;
   background-color: white;
   padding: 2%;
-  margin-top: 2%;
+  margin-top: 2.5%;
   margin-left: 10%;
   margin-right: 10%;
   border-style: solid;
@@ -148,4 +148,34 @@ input[type="radio"]:hover + label {
   width: 300px;
   height: 300px;
   margin-top: 2.5%;
+}
+
+#contenedorFooter{
+  width: 100%;
+  height: auto;
+  background-color: #6300BF;
+  margin-top: 2.5%;
+}
+
+#participantes{
+  float: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#participantes p{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#copyright{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+#copyright p{
+  text-decoration: none;
+  color: white;
 }

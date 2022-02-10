@@ -1,5 +1,6 @@
 import React from 'react';
 import "../index.css";
+import Footer from '../components/Footer';
 
 const Quienes_Somos = () => {
 
@@ -25,7 +26,8 @@ const Quienes_Somos = () => {
                 Mosquito Broker MQTT: esta herramienta la hemos utilizado para conectar las variables que nosotros recibimos a través de los sensores y mostrarlo en tiempo real en nuestra aplicación.
                 Java: esta herramienta la hemos utilizado para crear una API de prueba y comprobar si la aplicación funciona correctamente.
                 Todas las herramientas que hemos utilizado las hemos testeado nosotros mismos, para saber si todo funciona correctamente.</p>
-                </div>
+            </div>
+            <Footer/>
         </div>
     )
 };

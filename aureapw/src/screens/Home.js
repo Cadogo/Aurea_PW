@@ -4,6 +4,7 @@ import Aurea1 from "../assets/img/Aurea1.png";
 import Aurea2 from "../assets/img/Aurea2.png";
 import Aurea3 from "../assets/img/Aurea3.png";
 import Aurea4 from "../assets/img/Aurea4.png";
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -33,6 +34,7 @@ const Home = () => {
                         Uno de los problemas que hay es la comunicación con los demás grupos ya que cada uno está en un edificio diferente y que un cambio o retraso de cualquier equipo puede repercutir en el trabajo de los equipos restantes. La solución al problema es sincronizarnos todos los equipos con una metodología ágil y unos objetivos claros que deben cumplirse para no entorpecer el trabajo del resto de grupos.</p>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 };
