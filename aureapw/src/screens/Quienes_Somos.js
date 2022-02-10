@@ -4,7 +4,7 @@ import "../index.css";
 const Quienes_Somos = () => {
 
     return (
-        <div id='contenedorQuienesSomos'>
+        <div id='contenedorCentrar'>
         <div id='contenedorTitulo'>
             <h1>Viablidad</h1>
         </div>
