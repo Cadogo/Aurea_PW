@@ -1,5 +1,6 @@
 import React from 'react';
 import "../index.css";
+import logo from "../assets/img/logo.png";
 
 const Footer = () => {
 
@@ -15,6 +16,7 @@ const Footer = () => {
                     <p>Yosu Litago</p>
                 </article>
                 <article id='copyright'>
+                    <img id='logoFooter' src={logo}></img>
                     <p> Florida Aurea 2022 © </p>
                 </article>
             </section>
