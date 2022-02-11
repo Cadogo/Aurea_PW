@@ -21,6 +21,9 @@ const Navbar = () => {
             <li>
               <Link to="/Descargar_App">Descargar App</Link>
             </li>
+            <li>
+              <Link to="/Contacto">Contacto</Link>
+            </li>
           </ul>
         </nav>
   
