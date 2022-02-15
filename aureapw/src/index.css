@@ -165,6 +165,18 @@ input[type="radio"]:hover + label {
   border-color: black;
 }
 
+#linkApp{
+  text-decoration: none;
+}
+
+#linkApp:visited {
+  color: 'black';
+}
+
+#linkApp:hover{
+  font-size: 1.1em;
+}
+
 #contenedorTituloViabilidad{
   height: 100%;
   background-color: white;
@@ -179,6 +191,8 @@ input[type="radio"]:hover + label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #qr{
@@ -220,7 +234,8 @@ input[type="radio"]:hover + label {
 #contenedorNoPage{
   height: 100%;
   background-color: white;
-  margin-top: 2.5%;
+  margin-top: 15%;
+  margin-bottom: 15%;
   margin-left: 10%;
   margin-right: 10%;
   padding: 2.5%;
@@ -361,7 +376,7 @@ input[type="radio"]:hover + label {
   padding: 15px;
   border-radius: 15px;
   border: none;
-  box-shadow: 0 0 15px #6300BF;
+  box-shadow: 0 0 15px 'white';
   /* background-color: gray; */
 }
 
@@ -393,6 +408,7 @@ textarea {
   border-radius: 15px;
   border: none;
   background: #ddb9ff;
+  font-family: Poppins, sans-serif;
 }
 input[type=submit]{
   margin: 10px auto;
