@@ -1,6 +1,6 @@
 import React from 'react';
 import "../index.css";
-import QR from "../assets/img/QR.png";
+import QR from "../assets/img/QR.jpeg";
 import Footer from '../components/Footer';
 
 const Descargar_App = () => {
